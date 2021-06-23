@@ -24,8 +24,6 @@ public class Backend {
 	}
 
 	public static void main(String[] args) throws Exception {
-		init("firestore.json");
-
 		Dispatcher dispatcher = new Dispatcher();
 
 		Server server = new Server(PORT);
